@@ -6,13 +6,13 @@ import React from 'react';
 export const moviesData = [
   {
     id: 1,
-    title: "La Segunda Guerra Mundial en Color",
+    title: "Evita, El Funeral"
     theme: "Historia",
-    description: "Un documental fascinante que presenta la Segunda Guerra Mundial como nunca antes la habías visto, utilizando material de archivo restaurado y coloreado.",
+    description: "Un documental"
     duration: "120 min",
     rating: 4.8,
     year: 2009,
-    poster: "https://images.unsplash.com/photo-1646342029622-12f25838181e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoaXN0b3J5JTIwZG9jdW1lbnRhcnklMjBtb3ZpZXxlbnwxfHx8fDE3NTc1MDcyNzN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    poster: "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcR3AJjxzA_uTR8XSlchh3XUZOOtsHTR1bxQfspQF82EKnonAaVjCgIKqXZ9LnfHutDHXfTrxHS0hWaD9SN_g5sHfIlp4OYWhg",
     director: "Jonathan Martin"
   },
   {
