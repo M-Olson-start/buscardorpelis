@@ -3,9 +3,8 @@
 import React, { useState, useMemo } from 'react';
 // Importa tus datos locales
 import { moviesData } from '../dataset/movies'; 
-// Importa la interfaz si usas TypeScript
-// import { Movie } from '../data/movies'; 
 
+import logoEE from './../assets/logoEE.png';
 
 const BuscadorPeliculas = () => {
   const [query, setQuery] = useState('');
@@ -35,7 +34,11 @@ const BuscadorPeliculas = () => {
 
   return (
     <div>
+       <div className="image-container">
+             <img src={logoEE} alt="Logo" />
+          </div>
       <h1>Buscador de Películas Local</h1>
+      
       
       {/* Usamos onChange para filtrar en tiempo real */}
       <input
@@ -48,30 +51,27 @@ const BuscadorPeliculas = () => {
       
       {/* Ya no necesitamos un botón de "Buscar" porque filtramos al escribir */}
       
+ 
+   <div className="movie-list">
+  {filteredMovies.length > 0 ? (
+    filteredMovies.map((movie) => (
+      <div key={movie.id} className="movie-card">
+        <h3>{movie.title} ({movie.year})</h3>
+        <p>Director: {movie.director}</p>
+        <p>Temática: {movie.theme}</p>
+        <p>{movie.description}</p>
+        <p>Rating: <strong>{movie.rating}</strong>/5</p>
 
-      <div className="movie-list" style={{ marginTop: '20px' }}>
-        {filteredMovies.length > 0 ? (
-          filteredMovies.map((movie) => (
-            <div key={movie.id} className="movie-card" style={{ border: '1px solid #ccc', margin: '10px', padding: '15px' }}>
-              <h3>{movie.title} ({movie.year})</h3>
-              <p>Director: {movie.director}</p>
-              <p>Temática: {movie.theme}</p>
-              <p>{movie.description}</p>
-              <p>Rating: **{movie.rating}**/5</p>
-              
-              <img
-                src={movie.poster} // Usamos la URL completa de tu objeto de datos
-                alt={movie.title}
-                style={{ width: '150px', borderRadius: '5px', marginTop: '10px' }}
-              />
-            </div>
-          ))
-        ) : (
-          <p>No se encontraron películas que coincidan con "{query}".</p>
-        )}
+        <img src={movie.poster} alt={movie.title} />
       </div>
-    </div>
-  );
-};
+    ))
+  ) : (
+    <p>No se encontraron películas.</p>
+  )}
+</div>
+</div>
 
-export default BuscadorPeliculas;
+  );
+}
+
+export default BuscadorPeliculas

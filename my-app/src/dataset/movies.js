@@ -6,9 +6,9 @@ import React from 'react';
 export const moviesData = [
   {
     id: 1,
-    title: "Evita, El Funeral"
+    title: "Evita, El Funeral",
     theme: "Historia",
-    description: "Un documental"
+    description: "Un documental",
     duration: "120 min",
     rating: 4.8,
     year: 2009,
