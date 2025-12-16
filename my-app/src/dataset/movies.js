@@ -10,10 +10,8 @@ export const moviesData = [
     theme: "Historia",
     description: "Un documental",
     duration: "120 min",
-    rating: 4.8,
-    year: 2009,
     poster: "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcR3AJjxzA_uTR8XSlchh3XUZOOtsHTR1bxQfspQF82EKnonAaVjCgIKqXZ9LnfHutDHXfTrxHS0hWaD9SN_g5sHfIlp4OYWhg",
-    director: "Jonathan Martin"
+    
   },
   {
     id: 2,

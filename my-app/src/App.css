@@ -49,17 +49,17 @@
 
 /* Estilo de cada card */
 .movie-card {
-  background: #fff;
+  background: #023814;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(146, 236, 124, 0.89);
   transition: transform .2s, box-shadow .2s;
-  color: black;
+  color: rgb(248, 245, 245);
 }
 
 .movie-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 18px rgba(160, 201, 10, 0.822);
 }
 
 .movie-card img {
@@ -68,21 +68,37 @@
   height: auto;
   margin-top: 10px;
   border-radius: 6px;
+  box-shadow: 0 8px 18px rgba(160, 201, 10, 0.822);
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1.5rem 2rem;
+  box-sizing: border-box;
+ 
+}
+.title {
+  margin: 0;
 }
 
 .image-container {
- 
-  position: absolute;
+   flex-shrink: 0; /* evita que el logo se achique de más */
+ /*  position: absolute;
   top: 2.5rem; 
-  right: 1.5rem;
+  right: 1.5rem; */
 }
 
 
 .image-container img {
-  width: 10vw;        /* Tamaño relativo al ancho de la pantalla */
-  max-width: 120px;   /* Límite máximo para pantallas grandes */
-  min-width: 70px;    /* Límite mínimo para pantallas chicas */
-  height: auto;       /* Mantiene proporciones */
+  width: clamp(60px, 10vw, 120px); /* responsive sin media queries */
+  height: auto;
+  /* width: 10vw;        /* Tamaño relativo al ancho de la pantalla */
+  /*max-width: 120px;   /* Límite máximo para pantallas grandes */
+  /*min-width: 70px;    /* Límite mínimo para pantallas chicas */
+  /*height: auto;       /* Mantiene proporciones */
+  
 }
 
 
@@ -122,3 +138,14 @@
 .read-the-docs {
   color: #888;
 }
+@media (max-width: 600px) {
+  .header {
+     padding: 1rem;
+  }
+
+  .image-container {
+     white-space: normal; /* permite que baje de línea */
+    text-align: right;
+  }
+}
+

@@ -34,11 +34,13 @@ const BuscadorPeliculas = () => {
 
   return (
     <div>
-       <div className="image-container">
-             <img src={logoEE} alt="Logo" />
-          </div>
-      <h1>Buscador de Películas Local</h1>
-      
+      <div className="header">
+        <div className="image-container">
+              <img src={logoEE} alt="Logo" />
+        </div>
+        <h1 className="title">Buscador de Películas </h1>
+        
+      </div>
       
       {/* Usamos onChange para filtrar en tiempo real */}
       <input
@@ -56,11 +58,11 @@ const BuscadorPeliculas = () => {
   {filteredMovies.length > 0 ? (
     filteredMovies.map((movie) => (
       <div key={movie.id} className="movie-card">
-        <h3>{movie.title} ({movie.year})</h3>
-        <p>Director: {movie.director}</p>
+        <h3>{movie.title} </h3>
+        {/* <p>Director: {movie.director}</p> */}
         <p>Temática: {movie.theme}</p>
-        <p>{movie.description}</p>
-        <p>Rating: <strong>{movie.rating}</strong>/5</p>
+        <p>Descripción: {movie.description}</p>
+        {/* <p>Rating: <strong>{movie.rating}</strong>/5</p> */}
 
         <img src={movie.poster} alt={movie.title} />
       </div>
