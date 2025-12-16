@@ -6,7 +6,7 @@
 }
 /* App.css */
 .app-container {
-  background-color: #0b983faa;
+  background-color: #026d29e7;
   /* background-image: url('./assets/logoEE.png'); Asegúrate de que la ruta sea correcta */
   background-size: cover;
   background-position: center;
@@ -73,10 +73,12 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   padding: 1.5rem 2rem;
   box-sizing: border-box;
+  gap: 1rem;
+  color: rgb(248, 245, 245);
  
 }
 .title {
@@ -85,20 +87,17 @@
 
 .image-container {
    flex-shrink: 0; /* evita que el logo se achique de más */
- /*  position: absolute;
-  top: 2.5rem; 
-  right: 1.5rem; */
+ 
 }
 
 
 .image-container img {
   width: clamp(60px, 10vw, 120px); /* responsive sin media queries */
   height: auto;
-  /* width: 10vw;        /* Tamaño relativo al ancho de la pantalla */
-  /*max-width: 120px;   /* Límite máximo para pantallas grandes */
-  /*min-width: 70px;    /* Límite mínimo para pantallas chicas */
-  /*height: auto;       /* Mantiene proporciones */
-  
+  border-radius: 4px;
+  background-color: #09da47;
+  padding: 1px;
+
 }
 
 
@@ -106,14 +105,16 @@
 .logo {
   height: 6em;
   padding: 1.5em;
+  
+  
   will-change: filter;
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #05ac37aa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #61fb75de);
 }
 
 @keyframes logo-spin {

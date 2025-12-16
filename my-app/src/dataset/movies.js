@@ -15,101 +15,183 @@ export const moviesData = [
   },
   {
     id: 2,
-    title: "El Universo: Una Odisea del Espacio-Tiempo",
-    theme: "Ciencias",
-    description: "Una serie documental que explora los misterios del cosmos, desde las partículas subatómicas hasta las galaxias más distantes.",
+    title: "¿Que tienen los pobres en la cabeza?",
+    theme: "Reflexion -Charla Tedx",
+    description: "se refiere a los prejuicios sociales y a la mentalidad de escasez, no a algo inherente a la persona; se trata de creencias limitantes, enfoque en problemas, falta de oportunidades y la adaptación a la escasez, no un defecto mental, y a menudo surge de la discriminación y la falta de acceso a educación o recursos, como explica la charla viral de Mayra Arena en TEDxBahíaBlanca",
     duration: "45 min",
-    rating: 4.9,
-    year: 2014,
-    poster: "https://images.unsplash.com/photo-1575467678971-7cd5c2937dc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzY2llbmNlJTIwZWR1Y2F0aW9uJTIwZmlsbXxlbnwxfHx8fDE3NTc1MDcyNzN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    director: "Neil deGrasse Tyson"
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF1RqhZnTCIvO-MZXi-0p5VgvRCIydTN1U-A&s",
+
   },
   {
     id: 3,
-    title: "Shakespeare en Acción",
-    theme: "Literatura",
-    description: "Una adaptación cinematográfica que acerca las obras de Shakespeare a las nuevas generaciones con un enfoque moderno y dinámico.",
-    duration: "95 min",
-    rating: 4.6,
-    year: 2018,
-    poster: "https://images.unsplash.com/photo-1599402351482-f66f0a807675?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsaXRlcmF0dXJlJTIwYm9vayUyMG1vdmllfGVufDF8fHx8MTc1NzUwNzI3NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    director: "Emma Thompson"
+    title: "30 Mil desaparecidos",
+    theme: "Debate",
+    description: "Debate acerca de los 30 mil desaparecidos durante la dictadura militar en Argentina, explorando las historias de las víctimas, el impacto en sus familias y la lucha por la memoria y la justicia en el país. Debate entre Loperfido y Kohan",
+    poster: "https://www.laizquierdadiario.com/IMG/arton31164.jpg",
+  
   },
   {
     id: 4,
-    title: "Nuestro Planeta Azul",
-    theme: "Geografía",
-    description: "Un documental espectacular sobre los océanos de la Tierra y la vida marina que los habita, desde las profundidades abisales hasta los arrecifes de coral.",
+    title: "Caida en picada -Black Mirror",
+    theme: "Reflexion - Una sociedad obsesionada con las redes sociales",
+    description: "es el primer episodio de la tercera temporada de la serie antológica británica de ciencia ficción Black Mirror .",
     duration: "85 min",
-    rating: 4.7,
-    year: 2020,
-    poster: "https://images.unsplash.com/photo-1624204761823-4ae9fa33e1db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnZW9ncmFwaHklMjBuYXR1cmUlMjBkb2N1bWVudGFyeXxlbnwxfHx8fDE3NTc1MDcyNzR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    director: "David Attenborough"
+    
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3np8T6Dqn6Bjfv3iwWjmP1L4PaYdXFD-p6g&s",
+    
   },
   {
     id: 5,
-    title: "Los Secretos de las Matemáticas",
-    theme: "Matemáticas",
-    description: "Un documental educativo que revela la belleza y la importancia de las matemáticas en nuestra vida cotidiana y en el universo.",
+    title: "Cementerio de Animales",
+    theme: "Cine -Terror",
+    description: "icónica novela de terror de Stephen King (1983) sobre una familia que descubre un antiguo cementerio indígena con poderes siniestros que resucitan a los muertos, explorando temas de duelo y el más allá.",
     duration: "75 min",
-    rating: 4.5,
-    year: 2019,
-    poster: "https://images.unsplash.com/photo-1750776418412-1548a2b3f4b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYXRoZW1hdGljcyUyMGVkdWNhdGlvbnxlbnwxfHx8fDE3NTc0NTEwNjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    director: "Marcus du Sautoy"
+    
+    poster: "https://m.media-amazon.com/images/M/MV5BMTc4NDQ1OWQtZTQ3NS00YzI1LWExOGMtYmIyMWRlMzQyNDc3XkEyXkFqcGc@._V1_.jpg",
+   
   },
   {
     id: 6,
-    title: "Grandes Maestros del Arte",
-    theme: "Arte",
-    description: "Una serie que explora la vida y obra de los artistas más influyentes de la historia, desde da Vinci hasta Picasso.",
+    title: "Ciudad de Dios",
+    theme: "Pelicula-Drama",
+    description: "Ambientado en las Favelas de Río de Janeiro, los caminos de dos niños se entrecruzan cuando uno lucha por convertirse en fotógrafo y el otro en un capo.",
     duration: "60 min",
-    rating: 4.8,
-    year: 2017,
-    poster: "https://images.unsplash.com/photo-1614082636396-f8927eb06739?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcnQlMjBtdXNldW0lMjBwYWludGluZ3xlbnwxfHx8fDE3NTc1MDcyNzV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    director: "Simon Schama"
+    
+    poster: "https://m.media-amazon.com/images/M/MV5BYWI3YzMzMzItYWMwYi00NTA0LWExMWEtMzE2OGMyY2JiYWVkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    
   },
   {
     id: 7,
-    title: "El Imperio Romano",
-    theme: "Historia",
-    description: "Una miniserie documental que recrea la grandeza y la caída del Imperio Romano con recreaciones históricas espectaculares.",
+    title: "Infancia Clandestina",
+    theme: "Pelicula-Drama",
+    description: "Después de años de exilio, Juan, de 12 años, y su familia rebelde regresan a Argentina bajo identidades falsas para derrocar a la Junta.",
     duration: "180 min",
-    rating: 4.7,
-    year: 2016,
-    poster: "https://images.unsplash.com/photo-1646342029622-12f25838181e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoaXN0b3J5JTIwZG9jdW1lbnRhcnklMjBtb3ZpZXxlbnwxfHx8fDE3NTc1MDcyNzN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    director: "Jeremy Freeston"
+   
+    poster: "https://resizing.flixster.com/XK5vXeX88TOw5bd4Shpk_UfxKQU=/fit-in/352x330/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9451834_v_v8_aa.jpg",
+ 
   },
   {
     id: 8,
-    title: "La Célula: Unidad de Vida",
-    theme: "Ciencias",
-    description: "Un documental científico que nos adentra en el fascinante mundo microscópico de las células y su funcionamiento.",
+    title: "Distancia de Rescate",
+    theme: "Pelicula-Terror",
+    description: "Amanda pasa las vacaciones en un pueblo argentino con su hija Nina. Siempre preocupada por el bienestar de su hija, hace amistad con Carola, una vecina, madre de un chico. Poco a poco, Amanda empieza a sospechar que algo malo se cierne sobre ellas.",
     duration: "90 min",
-    rating: 4.4,
-    year: 2021,
-    poster: "https://images.unsplash.com/photo-1575467678971-7cd5c2937dc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzY2llbmNlJTIwZWR1Y2F0aW9uJTIwZmlsbXxlbnwxfHx8fDE3NTc1MDcyNzN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    director: "Sarah Mitchell"
+    
+    poster: "https://m.media-amazon.com/images/M/MV5BMTMzNjU1NTUtNTUyNC00NzgwLThkYjYtYzA5NjQ3NmVmNzYzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+   
   },
   {
     id: 9,
-    title: "Cervantes y el Quijote",
+    title: "El Bufón",
     theme: "Literatura",
-    description: "Un análisis profundo de la obra maestra de Cervantes y su impacto en la literatura mundial.",
+    description: "Un malévolo ser conocido como El Bufón aterroriza a los habitantes de un pequeño pueblo en la noche de Halloween, incluyendo a dos hermanas separadas que ...",
     duration: "105 min",
-    rating: 4.6,
-    year: 2015,
-    poster: "https://images.unsplash.com/photo-1599402351482-f66f0a807675?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsaXRlcmF0dXJlJTIwYm9vayUyMG1vdmllfGVufDF8fHx8MTc1NzUwNzI3NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    director: "Carlos Saura"
+    
+    poster: "https://www.tiempoar.com.ar/wp-content/uploads/2024/02/Netflix-The-Jester.jpg",
+   
   },
   {
     id: 10,
-    title: "Los Continentes en Movimiento",
-    theme: "Geografía",
-    description: "Un documental sobre la tectónica de placas y cómo los continentes han cambiado a lo largo de millones de años.",
+    title: "El dia despúes de mañana",
+    theme: "Pelicula-Ciencia Ficcion",
+    description: "La película “El día después de mañana” (2004), dirigida por Roland Emmerich, plantea una catástrofe climática sin precedentes provocada por el calentamiento global. Se trata de una ficción apocalíptica que muestra ciencia, emoción y efectos visuales impactantes para advertir sobre los riesgos ecológicos.",
     duration: "70 min",
-    rating: 4.5,
-    year: 2022,
-    poster: "https://images.unsplash.com/photo-1624204761823-4ae9fa33e1db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnZW9ncmFwaHklMjBuYXR1cmUlMjBkb2N1bWVudGFyeXxlbnwxfHx8fDE3NTc1MDcyNzR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    director: "James Cameron"
+    
+    poster: "https://m.media-amazon.com/images/M/MV5BZTZhYWZmOTMtZTVjYi00MjRjLTk1MWMtMGE1YjAxNjk3NzU1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    
+  },
+  {
+    id: 11,
+    title: "El Eternauta -Capítulo 1",
+    theme: "Serie-Ciencia ficción",
+    description: "La trama se centra en una invasión alienígena mediante una tormenta de nieve tóxica que acaba con la mayor parte de la población",
+    duration: "120 min",
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL-V83uxQ4Dyozk1JM4ZnVjpkBN044HVp8vg&s",
+    
+  },
+  {
+    id: 12,
+    title: "El Eternauta -Capítulo 2",
+    theme: "Serie-Ciencia ficción",
+    description: "La trama se centra en una invasión alienígena mediante una tormenta de nieve tóxica que acaba con la mayor parte de la población",
+    duration: "120 min",
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL-V83uxQ4Dyozk1JM4ZnVjpkBN044HVp8vg&s",
+
+  },
+  {
+    id: 13,
+   title: "El Eternauta -Capítulo 3",
+    theme: "Serie-Ciencia ficción",
+    description: "La trama se centra en una invasión alienígena mediante una tormenta de nieve tóxica que acaba con la mayor parte de la población",
+    duration: "120 min",
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL-V83uxQ4Dyozk1JM4ZnVjpkBN044HVp8vg&s",
+  
+  },
+  {
+    id: 14,
+    title: "El Eternauta -Capítulo 4",
+    theme: "Serie-Ciencia ficción",
+    description: "La trama se centra en una invasión alienígena mediante una tormenta de nieve tóxica que acaba con la mayor parte de la población",
+    duration: "120 min",
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL-V83uxQ4Dyozk1JM4ZnVjpkBN044HVp8vg&s",
+    
+  },
+  {
+    id: 15,
+    title: "El Eternauta -Capítulo 5",
+    theme: "Serie-Ciencia ficción",
+    description: "La trama se centra en una invasión alienígena mediante una tormenta de nieve tóxica que acaba con la mayor parte de la población",
+    duration: "120 min",
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL-V83uxQ4Dyozk1JM4ZnVjpkBN044HVp8vg&s",
+   
+  },
+  {
+    id: 16,
+    title: "El Eternauta -Capítulo 6",
+    theme: "Serie-Ciencia ficción",
+    description: "La trama se centra en una invasión alienígena mediante una tormenta de nieve tóxica que acaba con la mayor parte de la población",
+    duration: "120 min",
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL-V83uxQ4Dyozk1JM4ZnVjpkBN044HVp8vg&s",
+    
+  },
+  {
+    id: 17,
+    title: "El niño que domó el viento",
+    theme: "Pelicula-Drama",
+    description: "Un chico se inspira en un libro de ciencia para crear un molino de viento que salve a su aldea malauí del hambre. Basada en la historia real .",
+    duration: "180 min",
+   
+    poster: "https://www.penguinlibros.com/co/1672933/el-nino-que-domo-el-viento.jpg",
+ 
+  },
+  {
+    id: 18,
+    title: "El patrón, radiografía de un crimen",
+    theme: "Pelicula-Crimen Suspenso",
+    description: "Un abogado defiende a un humilde peón de campo, víctima de una crueldad tan abrumadora por parte de su siniestro jefe que desata una tragedia. Basada en hechos reales.",
+    duration: "90 min",
+    
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjxAZmSrewRv2HmpqpbHlfAuO4biR0VP8mfQ&s",
+   
+  },
+  {
+    id: 19,
+    title: "El Bufón",
+    theme: "Literatura",
+    description: "Un malévolo ser conocido como El Bufón aterroriza a los habitantes de un pequeño pueblo en la noche de Halloween, incluyendo a dos hermanas separadas que ...",
+    duration: "105 min",
+    
+    poster: "https://www.tiempoar.com.ar/wp-content/uploads/2024/02/Netflix-The-Jester.jpg",
+   
+  },
+  {
+    id: 20,
+    title: "El dia despúes de mañana",
+    theme: "Pelicula-Ciencia Ficcion",
+    description: "La película “El día después de mañana” (2004), dirigida por Roland Emmerich, plantea una catástrofe climática sin precedentes provocada por el calentamiento global. Se trata de una ficción apocalíptica que muestra ciencia, emoción y efectos visuales impactantes para advertir sobre los riesgos ecológicos.",
+    duration: "70 min",
+    
+    poster: "https://m.media-amazon.com/images/M/MV5BZTZhYWZmOTMtZTVjYi00MjRjLTk1MWMtMGE1YjAxNjk3NzU1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    
   }
 ];
