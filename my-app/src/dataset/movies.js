@@ -8,7 +8,7 @@ export const moviesData = [
     id: 1,
     title: "Evita, El Funeral",
     theme: "Historia",
-    description: "Un documental",
+    description: "documental",
     duration: "120 min",
     poster: "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcR3AJjxzA_uTR8XSlchh3XUZOOtsHTR1bxQfspQF82EKnonAaVjCgIKqXZ9LnfHutDHXfTrxHS0hWaD9SN_g5sHfIlp4OYWhg",
     
@@ -83,7 +83,7 @@ export const moviesData = [
   {
     id: 9,
     title: "El Bufón",
-    theme: "Literatura",
+    theme: "Cine -Terror",
     description: "Un malévolo ser conocido como El Bufón aterroriza a los habitantes de un pequeño pueblo en la noche de Halloween, incluyendo a dos hermanas separadas que ...",
     duration: "105 min",
     
@@ -176,22 +176,116 @@ export const moviesData = [
   },
   {
     id: 19,
-    title: "El Bufón",
-    theme: "Literatura",
-    description: "Un malévolo ser conocido como El Bufón aterroriza a los habitantes de un pequeño pueblo en la noche de Halloween, incluyendo a dos hermanas separadas que ...",
+    title: "El señor de los anillos-la comunidad del Anillos-001",
+    theme: "Pelicula-Ciencia Ficcion",
+    description: "primera parte de la épica trilogía de fantasía de J.R.R. Tolkien, tanto en libro como en la famosa adaptación cinematográfica de Peter Jackson (2001), que narra la formación de un grupo de nueve héroes (la Comunidad) liderados por el hobbit Frodo Bolsón para destruir el Anillo Único y derrotar al Señor Oscuro Sauron, enfrentándose a peligros como las Minas de Moria y figuras como Gollum. ",
     duration: "105 min",
     
-    poster: "https://www.tiempoar.com.ar/wp-content/uploads/2024/02/Netflix-The-Jester.jpg",
+    poster: "https://www.planetadelibros.com.ar/usuaris/libros/fotos/363/original/portada_el-senor-de-los-anillos-n-0103-la-comunidad-del-anillo-ne_j-r-r-tolkien_202209201501.jpg",
    
   },
   {
     id: 20,
-    title: "El dia despúes de mañana",
-    theme: "Pelicula-Ciencia Ficcion",
-    description: "La película “El día después de mañana” (2004), dirigida por Roland Emmerich, plantea una catástrofe climática sin precedentes provocada por el calentamiento global. Se trata de una ficción apocalíptica que muestra ciencia, emoción y efectos visuales impactantes para advertir sobre los riesgos ecológicos.",
+    title: "El viaje de Chihiro",
+    theme: "Pelicula-Animación",
+    description: "cuenta la historia de una niña de diez años llamada Chihiro, quien durante una mudanza se ve atrapada en un mundo mágico y sobrenatural, teniendo como misión buscar su libertad y la de sus padres, y así poder regresar a su mundo.",
     duration: "70 min",
     
-    poster: "https://m.media-amazon.com/images/M/MV5BZTZhYWZmOTMtZTVjYi00MjRjLTk1MWMtMGE1YjAxNjk3NzU1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    poster: "https://m.media-amazon.com/images/M/MV5BM2E2YzcwMTQtNWRlMC00ZGZlLWJhZTEtMDU4ZGIzMWI0NzJmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    
+  },
+  {
+    id: 21,
+    title: "El Eternauta -Capítulo 1",
+    theme: "Serie-Ciencia ficción",
+    description: "La trama se centra en una invasión alienígena mediante una tormenta de nieve tóxica que acaba con la mayor parte de la población",
+    duration: "120 min",
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL-V83uxQ4Dyozk1JM4ZnVjpkBN044HVp8vg&s",
+    
+  },
+  {
+    id: 22,
+    title: "El Eternauta -Capítulo 2",
+    theme: "Serie-Ciencia ficción",
+    description: "La trama se centra en una invasión alienígena mediante una tormenta de nieve tóxica que acaba con la mayor parte de la población",
+    duration: "120 min",
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL-V83uxQ4Dyozk1JM4ZnVjpkBN044HVp8vg&s",
+
+  },
+  {
+    id: 23,
+   title: "El Eternauta -Capítulo 3",
+    theme: "Serie-Ciencia ficción",
+    description: "La trama se centra en una invasión alienígena mediante una tormenta de nieve tóxica que acaba con la mayor parte de la población",
+    duration: "120 min",
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL-V83uxQ4Dyozk1JM4ZnVjpkBN044HVp8vg&s",
+  
+  },
+  {
+    id: 24,
+    title: "El Eternauta -Capítulo 4",
+    theme: "Serie-Ciencia ficción",
+    description: "La trama se centra en una invasión alienígena mediante una tormenta de nieve tóxica que acaba con la mayor parte de la población",
+    duration: "120 min",
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL-V83uxQ4Dyozk1JM4ZnVjpkBN044HVp8vg&s",
+    
+  },
+  {
+    id: 25,
+    title: "El Eternauta -Capítulo 5",
+    theme: "Serie-Ciencia ficción",
+    description: "La trama se centra en una invasión alienígena mediante una tormenta de nieve tóxica que acaba con la mayor parte de la población",
+    duration: "120 min",
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL-V83uxQ4Dyozk1JM4ZnVjpkBN044HVp8vg&s",
+   
+  },
+  {
+    id: 26,
+    title: "El Eternauta -Capítulo 6",
+    theme: "Serie-Ciencia ficción",
+    description: "La trama se centra en una invasión alienígena mediante una tormenta de nieve tóxica que acaba con la mayor parte de la población",
+    duration: "120 min",
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL-V83uxQ4Dyozk1JM4ZnVjpkBN044HVp8vg&s",
+    
+  },
+  {
+    id: 27,
+    title: "El niño que domó el viento",
+    theme: "Pelicula-Drama",
+    description: "Un chico se inspira en un libro de ciencia para crear un molino de viento que salve a su aldea malauí del hambre. Basada en la historia real .",
+    duration: "180 min",
+   
+    poster: "https://www.penguinlibros.com/co/1672933/el-nino-que-domo-el-viento.jpg",
+ 
+  },
+  {
+    id: 28,
+    title: "El patrón, radiografía de un crimen",
+    theme: "Pelicula-Crimen Suspenso",
+    description: "Un abogado defiende a un humilde peón de campo, víctima de una crueldad tan abrumadora por parte de su siniestro jefe que desata una tragedia. Basada en hechos reales.",
+    duration: "90 min",
+    
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjxAZmSrewRv2HmpqpbHlfAuO4biR0VP8mfQ&s",
+   
+  },
+  {
+    id: 29,
+    title: "El señor de los anillos-la comunidad del Anillos-001",
+    theme: "Pelicula-Ciencia Ficcion",
+    description: "primera parte de la épica trilogía de fantasía de J.R.R. Tolkien, tanto en libro como en la famosa adaptación cinematográfica de Peter Jackson (2001), que narra la formación de un grupo de nueve héroes (la Comunidad) liderados por el hobbit Frodo Bolsón para destruir el Anillo Único y derrotar al Señor Oscuro Sauron, enfrentándose a peligros como las Minas de Moria y figuras como Gollum. ",
+    duration: "105 min",
+    
+    poster: "https://www.planetadelibros.com.ar/usuaris/libros/fotos/363/original/portada_el-senor-de-los-anillos-n-0103-la-comunidad-del-anillo-ne_j-r-r-tolkien_202209201501.jpg",
+   
+  },
+  {
+    id: 30,
+    title: "El viaje de Chihiro",
+    theme: "Pelicula-Animación",
+    description: "cuenta la historia de una niña de diez años llamada Chihiro, quien durante una mudanza se ve atrapada en un mundo mágico y sobrenatural, teniendo como misión buscar su libertad y la de sus padres, y así poder regresar a su mundo.",
+    duration: "70 min",
+    
+    poster: "https://m.media-amazon.com/images/M/MV5BM2E2YzcwMTQtNWRlMC00ZGZlLWJhZTEtMDU4ZGIzMWI0NzJmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     
   }
 ];
