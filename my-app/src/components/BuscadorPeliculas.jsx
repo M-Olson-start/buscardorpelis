@@ -60,7 +60,7 @@ const BuscadorPeliculas = () => {
       <div key={movie.id} className="movie-card">
         <h3>{movie.title} </h3>
         {/* <p>Director: {movie.director}</p> */}
-        <p>Temática: {movie.theme}</p>
+        <p>{movie.id} Temática: {movie.theme}</p>
         <p>Descripción: {movie.description}</p>
         {/* <p>Rating: <strong>{movie.rating}</strong>/5</p> */}
 
