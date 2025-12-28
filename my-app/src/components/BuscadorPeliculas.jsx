@@ -4,7 +4,7 @@ import React, { useState, useMemo } from 'react';
 // Importa tus datos locales
 import { moviesData } from '../dataset/movies'; 
 
-import logoEE from './../assets/logoViejo.png';
+import logoEE from './../assets/logo-chat1.png';
 
 const BuscadorPeliculas = () => {
   const [query, setQuery] = useState('');
@@ -38,7 +38,7 @@ const BuscadorPeliculas = () => {
         <div className="image-container">
               <img className="logo" src={logoEE} alt="Logo" />
         </div>
-        <h1 className="title">Buscador de Películas </h1>
+        <h1 className="title">Filmoteca </h1>
         
       </div>
       
