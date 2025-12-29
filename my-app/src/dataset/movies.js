@@ -102,58 +102,14 @@ export const moviesData = [
   },
   {
     id: 11,
-    title: "El Eternauta -Capítulo 1",
+    title: "El Eternauta -Capítulo 1,2,3,4,5 y 6",
     theme: "Serie-Ciencia ficción",
     description: "La trama se centra en una invasión alienígena mediante una tormenta de nieve tóxica que acaba con la mayor parte de la población",
     duration: "120 min",
     poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL-V83uxQ4Dyozk1JM4ZnVjpkBN044HVp8vg&s",
     
   },
-  {
-    id: 12,
-    title: "El Eternauta -Capítulo 2",
-    theme: "Serie-Ciencia ficción",
-    description: "La trama se centra en una invasión alienígena mediante una tormenta de nieve tóxica que acaba con la mayor parte de la población",
-    duration: "120 min",
-    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL-V83uxQ4Dyozk1JM4ZnVjpkBN044HVp8vg&s",
-
-  },
-  {
-    id: 13,
-   title: "El Eternauta -Capítulo 3",
-    theme: "Serie-Ciencia ficción",
-    description: "La trama se centra en una invasión alienígena mediante una tormenta de nieve tóxica que acaba con la mayor parte de la población",
-    duration: "120 min",
-    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL-V83uxQ4Dyozk1JM4ZnVjpkBN044HVp8vg&s",
-  
-  },
-  {
-    id: 14,
-    title: "El Eternauta -Capítulo 4",
-    theme: "Serie-Ciencia ficción",
-    description: "La trama se centra en una invasión alienígena mediante una tormenta de nieve tóxica que acaba con la mayor parte de la población",
-    duration: "120 min",
-    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL-V83uxQ4Dyozk1JM4ZnVjpkBN044HVp8vg&s",
     
-  },
-  {
-    id: 15,
-    title: "El Eternauta -Capítulo 5",
-    theme: "Serie-Ciencia ficción",
-    description: "La trama se centra en una invasión alienígena mediante una tormenta de nieve tóxica que acaba con la mayor parte de la población",
-    duration: "120 min",
-    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL-V83uxQ4Dyozk1JM4ZnVjpkBN044HVp8vg&s",
-   
-  },
-  {
-    id: 16,
-    title: "El Eternauta -Capítulo 6",
-    theme: "Serie-Ciencia ficción",
-    description: "La trama se centra en una invasión alienígena mediante una tormenta de nieve tóxica que acaba con la mayor parte de la población",
-    duration: "120 min",
-    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL-V83uxQ4Dyozk1JM4ZnVjpkBN044HVp8vg&s",
-    
-  },
   {
     id: 17,
     title: "El niño que domó el viento",
@@ -377,5 +333,51 @@ export const moviesData = [
     duration: "70 min",
     
     poster: "https://pics.filmaffinity.com/Romeo_Julieta_de_William_Shakespeare-271906757-large.jpg"
+  },
+  {
+    id: 41,
+    title: "Tiempos modernos",
+    theme: "Pelicula-Comedia ",
+    description: "En la comedia clásica de Chaplin acerca de la Era de las Máquinas, un obrero que se dedica a colocar tornillos falla en todo, menos en enamorarse.",
+    duration: "120 min",
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8-FhUYvtzIJJoHHSa3IGlksw-L8kaD9XaSg&s",
+    
+  },
+  {
+    id: 42,
+    title: "Troya Historia y mito",
+    theme: "Reflexion -Charla Tedx",
+    description: "En la mitología griega, la guerra de Troya fue un conflicto bélico en el que se enfrentaron una coalición de ejércitos aqueos contra la ...",
+    duration: "45 min",
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvlx2evB9UyMEnHyAC09eJhmQBYKADE5ZFaA&shttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvlx2evB9UyMEnHyAC09eJhmQBYKADE5ZFaA&s",
+
+  },
+  {
+    id: 43,
+    title: "Tuya",
+    theme: "Pelicula-Drama",
+    description: "Inés Pereyra descubre que Ernesto, su marido, tiene una amante, su secretaria Alicia. A partir de la muerte de esta última, ella comienza una investigación y descubre secretos de la vida de su esposo que empiezan a derrumbar esa imagen de familia perfecta armada para los demás.",
+    poster: "https://m.media-amazon.com/images/M/MV5BNDA1NWZiMDYtZTU2Yy00MTRiLWIzMzUtYmVjZWNjNmNmMTgzXkEyXkFqcGc@._V1_.jpg",
+  
+  },
+  {
+    id: 44,
+    title: "Yo Nena,Yo Princesa",
+    theme: "Pelicula-Drama",
+    description: "Esta es la historia de Gabriela, una sufrida madre de mellizos que no sabe que las angustias, el insomnio recurrente y la autoflagelación que se impone su hija transgénero, a quien se le asignó varón al nacer, se debe a su deseo reprimido de manifestarse libremente como lo que siente ser: una niña",
+    duration: "85 min",
+    
+    poster: "https://media.lacapital.com.ar/p/1d03f35fb27fc030735400ba8da21109/adjuntos/203/imagenes/030/688/0030688704/642x0/smart/yo-nena-yo-prinjpg.jpg",
+    
+  },
+  {
+    id: 45,
+    title: "Coco",
+    theme: "Pelicula Animada",
+    description: "Miguel es un niño que sueña con ser músico, pero su familia se lo prohíbe porque su tatarabuelo, músico, los abandonó, y quieren obligar a Miguel a ser zapatero, como todos los miembros de la familia",
+    duration: "85 min",
+    
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5y0snjsn5wUknlan8XeuBjXRRB9c-qBeHBg&s.jpg",
+    
   },
 ];
