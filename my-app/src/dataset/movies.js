@@ -228,7 +228,7 @@ export const moviesData = [
     theme: "Pelicula-Drama",
     description: "Una tenaz profesora entrega su vida para ayudar a sus estudiantes a descubrir su potencial... en medio de la violencia extrema que los rodea.",
     duration: "120 min",
-    poster: "https://play-lh.googleusercontent.com/mWrb-3hM-aibSLG_7wAuqbw2mGicyAXn4Zw4C0vk-eThoMmTD7nhark0QYvD0Hi-J-LP8A",
+    poster: "https://d3b5jqy5xuub7g.cloudfront.net/wp-content/uploads/2019/03/EscritoresDeLaLibertad.jpg",
     
   },
   {
@@ -353,32 +353,29 @@ export const moviesData = [
   },
   {
     id: 38,
-    title: "Distancia de Rescate",
-    theme: "Pelicula-Terror",
+    title: "Preciosa",
+    theme: "Pelicula-Drama",
     description: "La adolescente Precious Jones, maltratada por su madre y embarazada de su padre, tiene la oportunidad inesperada de tener una vida distinta en una escuela alternativa.",
     duration: "90 min",
     
-    poster: "https://m.media-amazon.com/images/M/MV5BMTMzNjU1NTUtNTUyNC00NzgwLThkYjYtYzA5NjQ3NmVmNzYzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-   
+    poster: "https://miro.medium.com/0*bOgLn4i1DpMS3Lbt.jpg"
   },
   {
-    id: 9,
-    title: "El Bufón",
-    theme: "Cine -Terror",
-    description: "Un malévolo ser conocido como El Bufón aterroriza a los habitantes de un pequeño pueblo en la noche de Halloween, incluyendo a dos hermanas separadas que ...",
-    duration: "105 min",
+    id: 39,
+    title: "Romeo y Julieta 1968",
+    theme: "Pelicula -Drama",
+    description: "Enfurecido por la muerte de su amigo, Romeo se venga luchando contra Teobaldo y matándolo. Posteriormente, el Príncipe castiga a Romeo con el destierro de Verona, bajo amenaza de muerte si regresa. Romeo pasa entonces en secreto su noche de bodas con Julieta, la pareja consuma su matrimonio y Romeo huye.",
     
-    poster: "https://www.tiempoar.com.ar/wp-content/uploads/2024/02/Netflix-The-Jester.jpg",
+    poster: "https://es.web.img3.acsta.net/pictures/210/537/21053772_20131029174744802.jpg",
    
   },
   {
-    id: 10,
-    title: "El dia despúes de mañana",
-    theme: "Pelicula-Ciencia Ficcion",
-    description: "La película “El día después de mañana” (2004), dirigida por Roland Emmerich, plantea una catástrofe climática sin precedentes provocada por el calentamiento global. Se trata de una ficción apocalíptica que muestra ciencia, emoción y efectos visuales impactantes para advertir sobre los riesgos ecológicos.",
+    id: 40,
+    title: "Romeo y Julieta 1996",
+    theme: "Pelicula-Drama",
+    description: " La película cuenta la historia de los jóvenes enamorados en Verona Beach, en un intento de dar un nuevo marco modernizado a la historia, ya que esta se sitúa en la época en la cual se estrenó (1996).",
     duration: "70 min",
     
-    poster: "https://m.media-amazon.com/images/M/MV5BZTZhYWZmOTMtZTVjYi00MjRjLTk1MWMtMGE1YjAxNjk3NzU1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    
+    poster: "https://pics.filmaffinity.com/Romeo_Julieta_de_William_Shakespeare-271906757-large.jpg"
   },
 ];
